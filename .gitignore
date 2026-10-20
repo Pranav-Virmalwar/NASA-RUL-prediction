@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+# Tests, tooling, and notebooks
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# C-MAPSS data files (keep the dataset description and reference paper)
+/CMaps/*.txt
+!/CMaps/readme.txt
+/artifacts/
+*.h5
+*.keras
+*.weights.h5
+*.preprocessing.json
+
+# Personal internship documents and redundant source archive
+/INTERNSHIP PROJECT REPORT- TTL.odt
+/INTERNSHIP PROJECT REPORT- TTL.pdf
+/Pranav Virmalwar - Internship Certificate.pdf
+/archive (5).zip
